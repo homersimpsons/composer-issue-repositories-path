@@ -1,0 +1,17 @@
+{
+    "name": "composer-test/project",
+    "autoload": {
+        "psr-4": {
+            "ComposerTest\\Project\\": "src/"
+        }
+    },
+    "repositories": {
+        "common": {
+            "type": "path",
+            "url": "../common"
+        }
+    },
+    "require": {
+        "composer-test/common": "@dev"
+    }
+}

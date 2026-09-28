@@ -1,0 +1,39 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f33def9f44656231a7ddc667f9bdf668",
+    "packages": [
+        {
+            "name": "composer-test/common",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../common",
+                "reference": "e4fb189412b3eb2b96fbe17f96af6cdf19f73c33"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ComposerTest\\Common\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "composer-test/common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

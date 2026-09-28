@@ -1,0 +1,9 @@
+{
+    "name": "composer-test/common",
+    "autoload": {
+        "psr-4": {
+            "ComposerTest\\Common\\": "src/"
+        }
+    },
+    "require": {}
+}
